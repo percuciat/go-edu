@@ -1,0 +1,15 @@
+db:
+  host: host.docker.internal
+  port: 5432
+  name: test
+  user: test
+  password: test
+  ssl-mode: disable
+
+app:
+  host: 0.0.0.0
+  port: 4000
+  version: v1.0
+  fiber:
+    logger: true
+    cors: true
